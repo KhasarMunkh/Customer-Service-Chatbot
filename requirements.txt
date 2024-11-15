@@ -2,3 +2,5 @@ langchain
 openai
 faiss-cpu
 streamlit
+langchain-community
+
