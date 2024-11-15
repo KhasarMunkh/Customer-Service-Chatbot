@@ -3,4 +3,6 @@ openai
 faiss-cpu
 streamlit
 langchain-community
+pypdf
+tiktoken
 
