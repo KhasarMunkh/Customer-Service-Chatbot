@@ -1,9 +1,6 @@
 import os
 import sqlite3
 import streamlit as st
-# Disable Streamlit's file watcher to prevent inotify watch limit errors
-st.set_option('server.fileWatcherType', 'none')
-
 from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings  # Updated import
