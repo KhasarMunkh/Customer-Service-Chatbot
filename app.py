@@ -46,7 +46,7 @@ qa_chain = RetrievalQA.from_chain_type(
 )
 
 # Streamlit UI
-t.set_page_config(
+st.set_page_config(
     page_title="Walmart+ Customer Support Chatbot",
     page_icon="🛍️",
     layout="wide",
