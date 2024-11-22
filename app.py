@@ -1,4 +1,5 @@
 import os
+import sqlite3
 import streamlit as st
 from langchain.document_loaders import DirectoryLoader, PyPDFLoader, TextLoader
 from langchain.embeddings import OpenAIEmbeddings
