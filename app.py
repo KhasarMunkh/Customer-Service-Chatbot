@@ -1,9 +1,9 @@
 import os
 import sqlite3
 import streamlit as st
-from langchain.document_loaders import DirectoryLoader, PyPDFLoader, TextLoader
-from langchain.embeddings import OpenAIEmbeddings
+from langchain.docstore.document import Document 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain.llms import OpenAI
